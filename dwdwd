@@ -16,7 +16,7 @@ turnflingon = true --turns fling on
 
 
 
-game:GetService("Workspace").nathan21brown.SamuraiHat.Handle.SpecialMesh:destroy()
+game:GetService("Players").LocalPlayer.Character.SamuraiHat.Handle.SpecialMesh:destroy()
 local Vector3_101 = Vector3.new(1, 0, 1)
 local netless_Y = Vector3.new(0, 25.1, 0)
 local function getNetlessVelocity(realPartVelocity) --change this if you have a better method
